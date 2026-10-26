@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.4.0 — Desktop preview
+## 0.4.0 - Desktop preview
 
 - Added self-contained Windows x64 and combined Intel/Apple Silicon Mac app installers.
 - Bundled Electron's Chromium/Node runtime, plus a private Python runtime for the Windows ChemDraw connection.

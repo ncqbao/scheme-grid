@@ -1,0 +1,36 @@
+{
+  "version": "0.4.0",
+  "packages": [
+    {
+      "file": "SchemeGrid-Windows-Setup.exe",
+      "bytes": 170655744,
+      "sha256": "addee37e19064632de5d4b0544963655b475e40c35e8ddaccfda3d7415360e1a",
+      "platform": "Windows x64",
+      "dependenciesBundled": true,
+      "fullExtractionTestPassed": true,
+      "extractedRuntimeTestPassed": true,
+      "systemRuntimePathRemovedDuringTest": true,
+      "shortcutCreationTestPassed": true,
+      "installerFixtureCases": 5,
+      "isolatedAppCases": 16,
+      "isolatedBridgeCases": 19,
+      "newDesktopNativeConnectionLiveTested": false,
+      "publisherSigned": false
+    },
+    {
+      "file": "SchemeGrid-Mac-Installer-Preview.zip",
+      "bytes": 245850153,
+      "sha256": "2dd8bea4543dddffa6aec3a3d76ce9e11d51f2341b889b3e373a3112a84f98ff",
+      "platform": "macOS 13+ Intel and Apple Silicon",
+      "dependenciesBundled": true,
+      "archiveAndPayloadChecksPassed": true,
+      "originalBinariesAndFrameworkLinksPreserved": true,
+      "macExecutionTested": false,
+      "developerIdSigned": false,
+      "notarized": false
+    }
+  ],
+  "researchDrawingsIncluded": false,
+  "codexRequired": false,
+  "separateNodePythonChromeInstallRequired": false
+}

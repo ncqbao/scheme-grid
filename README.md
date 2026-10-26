@@ -2,12 +2,12 @@
 
 Arrange reaction schemes into tidy rows, center conditions and yields on arrows, and number unnumbered main reactants and products.
 
-**Desktop preview Â· version 0.4.0.** Scheme Grid is an independent ChemDraw companion. It is not an official Revvity product or a listing in ChemDraw's official add-in catalog.
+**Desktop preview | version 0.4.0.** Scheme Grid is an independent ChemDraw companion. It is not an official Revvity product or a listing in ChemDraw's official add-in catalog.
 
 ## Download
 
 - [Windows x64 installer](https://github.com/ncqbao/scheme-grid/releases/download/v0.4.0/SchemeGrid-Windows-Setup.exe)
-- [Mac installer preview â€” Intel and Apple Silicon](https://github.com/ncqbao/scheme-grid/releases/download/v0.4.0/SchemeGrid-Mac-Installer-Preview.zip)
+- [Mac installer preview - Intel and Apple Silicon](https://github.com/ncqbao/scheme-grid/releases/download/v0.4.0/SchemeGrid-Mac-Installer-Preview.zip)
 - [Prepared source archive](https://github.com/ncqbao/scheme-grid/releases/download/v0.4.0/SchemeGrid-GitHub-Source-v0.4.0.zip)
 - [Release notes and checksums](https://github.com/ncqbao/scheme-grid/releases/tag/v0.4.0)
 
