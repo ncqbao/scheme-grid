@@ -1,0 +1,30 @@
+# Bundled runtime downloads and generated installers belong in Releases.
+dist/
+bundled-desktop/build/
+bundled-desktop/windows-installer/build-*/
+bundled-desktop/mac-installer/package-report.json
+bundled-desktop/downloads/*
+!bundled-desktop/downloads/electron-SHASUMS256.txt
+*.exe
+*.dll
+*.pyd
+*.dylib
+*.zip
+*.tar.gz
+*.lnk
+node_modules/
+__pycache__/
+*.py[cod]
+runtime.json
+runtime-mac.json
+Results/
+results/
+.DS_Store
+Thumbs.db
+# Never commit real ChemDraw source files or application credentials.
+*.cdx
+.env
+.env.*
+*.p12
+*.pfx
+*.pem

@@ -1,0 +1,24 @@
+{
+  "tag": "v0.4.0",
+  "name": "Scheme Grid Desktop 0.4.0 \u2014 preview",
+  "prerelease": true,
+  "assets": [
+    {
+      "file": "SchemeGrid-Windows-Setup.exe",
+      "bytes": 170655744,
+      "sha256": "addee37e19064632de5d4b0544963655b475e40c35e8ddaccfda3d7415360e1a"
+    },
+    {
+      "file": "SchemeGrid-Mac-Installer-Preview.zip",
+      "bytes": 245850153,
+      "sha256": "2dd8bea4543dddffa6aec3a3d76ce9e11d51f2341b889b3e373a3112a84f98ff"
+    },
+    {
+      "file": "SchemeGrid-GitHub-Source-v0.4.0.zip"
+    },
+    {
+      "file": "SHA256SUMS.txt"
+    }
+  ],
+  "repository": "ncqbao/scheme-grid"
+}
