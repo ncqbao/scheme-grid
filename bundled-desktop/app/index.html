@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'none'; img-src 'self'; object-src 'none'; base-uri 'none'; frame-src 'none'">
+  <title>Scheme Grid</title><link rel="stylesheet" href="desktop.css">
+</head>
+<body><div class="shell">
+  <header><div class="mark" aria-hidden="true">▦</div><div><h1>Scheme Grid</h1><p>A little order for your reaction schemes.</p></div><span class="badge">Works offline</span></header>
+  <main>
+    <section class="card intro">
+      <p class="eyebrow">LET’S TIDY UP</p><h2>Your chemistry, neatly arranged.</h2>
+      <p id="instructions" class="description">Save a CDXML copy from ChemDraw, open it here, and click Arrange. Save the result and open it in ChemDraw to review it.</p>
+      <div class="actions"><button id="native" class="primary" hidden>Clean active ChemDraw scheme</button><button id="open" class="secondary">Open a CDXML file</button></div>
+      <label class="check"><input id="numbering" type="checkbox" checked> Number unnumbered reactants and products</label>
+      <p class="hint">Conditions and yields travel with their arrows. Existing molecule numbers stay.</p>
+    </section>
+    <section id="status" class="status" aria-live="polite" aria-atomic="true"><span class="dot"></span><div><h3 id="status-title">Ready when you are</h3><p id="status-text">Choose a drawing to make an arranged, editable copy.</p></div></section>
+    <section class="card" id="drawing" hidden>
+      <p class="eyebrow">YOUR DRAWING</p><h2 id="filename"></h2><p id="summary" class="description">Ready to arrange.</p>
+      <ul id="warnings" hidden></ul>
+      <div class="actions"><button id="arrange" class="primary">Arrange</button><button id="save" class="secondary" disabled>Save arranged copy</button><button id="open-result" class="text-button" hidden>Open in ChemDraw</button></div>
+    </section>
+    <details><summary>A quick tip</summary><p>File mode arranges the whole imported drawing. For a smaller section, save that section as its own CDXML copy first. Review the result in ChemDraw before using it in your work.</p><p id="native-notes" hidden>With the Windows connection, leave only one ChemDraw application running. A selection limits cleanup to complete selected units and their annotations; without a selection, the full drawing is arranged.</p></details>
+  </main><footer>Local processing · Editable output · Original preserved <span id="version"></span></footer>
+</div><script src="renderer.js"></script></body></html>
