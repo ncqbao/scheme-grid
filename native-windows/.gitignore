@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+payload/
+runtime/downloads/
+setup/build-*/
+setup/t????????/
+setup/fixture-test-report.json
+dist/

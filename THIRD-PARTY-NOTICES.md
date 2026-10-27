@@ -1,25 +1,19 @@
-# Third-party components
+# Third-party notices
 
-The installers retain the license files and notices supplied in the official runtime distributions. The source repository does not contain those large runtime binaries.
+The developer runtime builder obtains pinned original distributions of CPython,
+pywin32, Node.js, Playwright, Playwright Core, and Chrome Headless Shell. Versions,
+official URLs, SHA256 values, npm SHA512 integrity values, and license locations
+are recorded in `runtime/PUBLIC-RUNTIME-PROVENANCE.json`.
 
-| Component | Pinned version | Used by | Official source |
-| --- | --- | --- | --- |
-| Electron | 45.0.0 | Windows and Mac app | https://github.com/electron/electron/releases/tag/v45.0.0 |
-| Chromium | 156.0.8078.48, included in Electron | Local layout engine | Electron's `LICENSES.chromium.html` and runtime notices |
-| Node.js | 24.22.0, included in Electron | App main process | Electron's runtime notices |
-| CPython embeddable x64 | 3.14.10 | Private Windows connection | https://www.python.org/downloads/release/python-31410/ |
+The source export contains no third-party runtime binaries. A built installer
+retains their complete original license and notice files at these installed paths:
 
-Official Electron checksum list: https://github.com/electron/electron/releases/download/v45.0.0/SHASUMS256.txt
+- CPython: `runtime/python/LICENSE.txt`
+- pywin32: `runtime/python/Lib/site-packages/pywin32-312.dist-info/licenses/`
+- Node.js: `runtime/node/LICENSE`
+- Chrome Headless Shell: `runtime/chromium/LICENSE.headless_shell`
+- Playwright: `runtime/playwright/node_modules/playwright/LICENSE` and `NOTICE`
+- Playwright Core: `runtime/playwright/node_modules/playwright-core/LICENSE` and `NOTICE`
 
-Pinned download SHA256 values:
-
-```text
-ae53887a23bb640369c93dbd38c408a2af5c0deb86f2fa76c6c244cb444b7f47  electron-v45.0.0-win32-x64.zip
-896c3a50b148e89a158dca08a6996a022ddf39b23aac871e107f5b4087f8caa9  electron-v45.0.0-darwin-arm64.zip
-7877c282e74a52f8d87949536a25735cf9982de1265b544c9cd258dd14eff4de  electron-v45.0.0-darwin-x64.zip
-90905e64a840557d8c1bc4f5b74db3d7ee85e3ffb217611cac1c7813acea4159  python-3.14.10-embed-amd64.zip
-```
-
-Electron's runtime includes its own dependencies; consult its bundled notices for the complete component attribution. CPython's license text is retained in the private Windows Python folder. Scheme Grid's project license remains pending the owner's choice and does not alter third-party licenses.
-
-ChemDraw and Revvity names identify the host application and its publisher. No ChemDraw binaries or activation keys are distributed by this project, and the project is not an official Revvity product.
+The included official Python script-host installers carry their own license notices.
+The Scheme Grid project license status is separately described in `LICENSE.md`.

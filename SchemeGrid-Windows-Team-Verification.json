@@ -1,0 +1,136 @@
+{
+  "product": "Scheme Grid for ChemDraw",
+  "version": "0.5.0-native-preview.7",
+  "verificationDate": "2026-10-27",
+  "installer": {
+    "file": "SchemeGrid-ChemDraw-Windows-Setup.exe",
+    "bytes": 248429568,
+    "sha256": "90aaa916307a39524b4faadffd79a4ff71352436b661530489f6ef599e1c4539",
+    "embeddedFiles": 1144,
+    "uncompressedPayloadBytes": 500691553,
+    "authenticodeSigned": false,
+    "installationScope": "Per user",
+    "forcedReboot": false,
+    "downloadsRequiredForIncludedHelpers": false
+  },
+  "exposedCommands": [
+    "Scheme Grid - Arrange Selection in Place",
+    "Scheme Grid - Restore Last Arrangement"
+  ],
+  "changes": [
+    "Removed obsolete app/options comparisons from help",
+    "Replaced misleading whole-drawing advice with single-row selection instructions",
+    "Corrected installed-menu names in errors",
+    "Replaced manual dependency-configuration instructions with installation-error messages",
+    "Included the referenced third-party notice index",
+    "Retires only an exactly recognized historical Snap Scheme launcher, with verified backups and rollback"
+  ],
+  "requirements": {
+    "operatingSystem": "64-bit Windows 10 or newer",
+    "chemdraw": "Installed, licensed ChemDraw 26 with ChemScripts in a supported standard per-user installation",
+    "chemdrawArchitectures": [
+      "x86",
+      "x64"
+    ],
+    "chemdrawOrLicenseIncluded": false
+  },
+  "includedRuntime": {
+    "pythonEmbedded": "3.14.10 x64",
+    "pywin32": "312",
+    "node": "24.19.0 x64",
+    "playwright": "1.62.1",
+    "chromeHeadlessShell": "151.0.7922.34",
+    "runtimeManifestFiles": 1115,
+    "thirdPartyNoticesIncluded": true,
+    "offlinePythonScriptHostInstallers": [
+      "3.14.10 x86",
+      "3.14.10 x64"
+    ]
+  },
+  "preview7Checks": {
+    "embeddedPayloadValidation": {
+      "passed": true,
+      "files": 1144
+    },
+    "installerFixtureChecksPassed": 34,
+    "releaseSurfaceChecksPassed": 49,
+    "coreOfflineChecksPassed": 18,
+    "actualInstallation": {
+      "passed": true,
+      "testOnly": false,
+      "files": 1144,
+      "rebootRequired": false,
+      "existingPythonRegistrationsUnchanged": true,
+      "installedMode": "apply-selected"
+    },
+    "actualLegacyCleanup": {
+      "passed": true,
+      "architectures": 2,
+      "retiredExactLaunchers": 2,
+      "retiredBackupsHashVerified": true,
+      "activeCommandFiles": 4
+    },
+    "actualInstalledPlanner": {
+      "passed": true,
+      "isolatedPrivatePython": true,
+      "privateNodeAndBrowserUsed": true,
+      "preservationGuardAndCompilerPassed": true,
+      "operations": 11,
+      "missingNumbers": 2,
+      "allInstalledPayloadFilesUnchanged": 1144,
+      "generatedPythonBytecodeFiles": 0,
+      "sourceFileUnchanged": true,
+      "nativeApplicationsOrCOMAccessed": false
+    },
+    "actualReinstallAfterUse": {
+      "passed": true,
+      "filesVerified": 1144,
+      "rebootRequired": false
+    },
+    "liveChemDrawMenuEditingCycleTested": false
+  },
+  "nativeEditingCoverage": {
+    "testedVersion": "0.5.0-native-preview.5",
+    "x64": {
+      "arrangeRestoreCyclesInSameReusedDrawing": 2,
+      "passed": true,
+      "unrelatedNodesVerifiedUnchangedPerArrange": 164,
+      "missingNumbersAddedPerArrange": 2,
+      "originalStateVerifiedAfterEachRestore": true
+    },
+    "x86": {
+      "arrangePassed": true,
+      "unrelatedNodesVerifiedUnchanged": 164,
+      "missingNumbersAdded": 2,
+      "restoreTestedInPreview5OrLater": false
+    },
+    "version7CoreDifference": "Exception/help strings only; arrangement, preservation, execution and Restore logic are unchanged from preview 6. Preview 6 added isolated no-bytecode private Python startup flags relative to preview 5.",
+    "originalUserDrawingUnchanged": true,
+    "originalUserDrawingSHA256": "6c3f121611418b1f65830e12749849fe411c547444951936be6a871cac7f8c69"
+  },
+  "priorStartupCoverage": {
+    "testedVersion": "0.5.0-native-preview.6",
+    "targetedStartupChecksPassed": 31,
+    "actualPrivatePythonStartups": 7
+  },
+  "missingScriptHostProvisioning": {
+    "fixtureTested": true,
+    "freshWindowsMachineTested": false,
+    "hostInstallerExecutionNeededOnThisPC": false,
+    "existingHostPreservationVerifiedOnThisPC": true
+  },
+  "scope": [
+    "Direct saved CDX/CDXML drawings opened in ChemDraw",
+    "A contiguous selected region of complete objects within one reaction row",
+    "Straight horizontal reaction arrows",
+    "One unambiguous ChemDraw 26 process and target drawing",
+    "Automatic layout defaults and missing main-molecule numbering",
+    "Restore before further edits or closing, in the same verified running document"
+  ],
+  "releaseStatus": {
+    "unsignedLabPreview": true,
+    "projectLicenseAssigned": false,
+    "privateResearchFilesIncluded": false,
+    "oldDesktopAddinOrMacPrototypesIncluded": false
+  }
+}

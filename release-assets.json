@@ -1,24 +1,29 @@
 {
-  "tag": "v0.4.0",
-  "name": "Scheme Grid Desktop 0.4.0 - preview",
-  "prerelease": true,
+  "tag": "v0.5.0-native-preview.7",
   "assets": [
     {
-      "file": "SchemeGrid-Windows-Setup.exe",
-      "bytes": 170655744,
-      "sha256": "addee37e19064632de5d4b0544963655b475e40c35e8ddaccfda3d7415360e1a"
+      "name": "SchemeGrid-ChemDraw-Windows-Setup.exe",
+      "bytes": 248429568,
+      "sha256": "90aaa916307a39524b4faadffd79a4ff71352436b661530489f6ef599e1c4539",
+      "url": "https://github.com/ncqbao/scheme-grid/releases/download/v0.5.0-native-preview.7/SchemeGrid-ChemDraw-Windows-Setup.exe"
     },
     {
-      "file": "SchemeGrid-Mac-Installer-Preview.zip",
-      "bytes": 245850153,
-      "sha256": "2dd8bea4543dddffa6aec3a3d76ce9e11d51f2341b889b3e373a3112a84f98ff"
+      "name": "SchemeGrid-Windows-Team-Quick-Start.txt",
+      "bytes": 2789,
+      "sha256": "c9f06fcc4ebca215fa563e6375d79dce87099c8e17e3e54ad569e6edcf2bf9b4",
+      "url": "https://github.com/ncqbao/scheme-grid/releases/download/v0.5.0-native-preview.7/SchemeGrid-Windows-Team-Quick-Start.txt"
     },
     {
-      "file": "SchemeGrid-GitHub-Source-v0.4.0.zip"
+      "name": "SchemeGrid-Windows-Team-Verification.json",
+      "bytes": 4959,
+      "sha256": "b40aa3d5be74ea98c8b2cab81ac6a0af6f2b50411c76580379c6a4a878538048",
+      "url": "https://github.com/ncqbao/scheme-grid/releases/download/v0.5.0-native-preview.7/SchemeGrid-Windows-Team-Verification.json"
     },
     {
-      "file": "SHA256SUMS.txt"
+      "name": "SHA256SUMS.txt",
+      "bytes": 321,
+      "sha256": "e34fc02d1d2c6e9aec0111a95f3dfdeb78fcb91a658d0d7cf1b92653ef964ba8",
+      "url": "https://github.com/ncqbao/scheme-grid/releases/download/v0.5.0-native-preview.7/SHA256SUMS.txt"
     }
-  ],
-  "repository": "ncqbao/scheme-grid"
+  ]
 }
